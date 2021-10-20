@@ -1,5 +1,5 @@
 package com.particeep.test.basic
-
+  import scala.collection.mutable.ListMap
 /**
  * What is the complexity of the function ?
  * the complexity of this function is O(n)
@@ -30,7 +30,7 @@ object Refactoring {
   
   ////////////answer //////////////////////////
   
-  import scala.collection.mutable.ListMap
+
 
 object Refactoring {
      case class File(
