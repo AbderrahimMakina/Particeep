@@ -21,6 +21,10 @@ class WhatsWrong3 extends Actor {
       requestF.onComplete {
         case Success(r) => handleResponse(r)
         case Failure(e) => e.printStackTrace()
+        // This works correctly when the authActor sends a failure,
+        // but if the authActor throws an exception, nothing happens so we should consider an other case :
+        case e => complete(StatusCodes.InternalServerError,"Unable to complete the request. Please try again later.")
+        //In reality this returns a custom error object.
       }
     }
   }
