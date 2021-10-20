@@ -1,6 +1,9 @@
 package com.particeep.test.basic
 
  
+class ComputeAvarage {
+  
+  
   /**
  * Compute the avarage of the list
  *
@@ -25,3 +28,9 @@ println("Average is:" + average)
     }
     
   
+  
+  
+  
+  
+  
+}
