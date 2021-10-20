@@ -1,9 +1,6 @@
 package com.particeep.test.basic
 
-/**
- * This is basic language questions so don't use external library or build in function
- */
-object BasicScala {
+
 
    
   /**
